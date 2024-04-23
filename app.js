@@ -1,7 +1,7 @@
 let h2 = document.querySelector('.h2')
 let h22 = document.querySelector('.h22')
 
-function calculated(tell) {
+function calculated(tail) {
     if (Math.floor(Math.random() * 2)) {
         console.log('win');
         h2.innerHTML = 'you win'
@@ -9,13 +9,13 @@ function calculated(tell) {
     } else {
         console.log('lose');
         h2.innerHTML = 'you lose'
-        // return 'lose'+ tell 
+        // return 'lose'+ tail 
 
     }
-    // console.log(tell);
-    if (tell === 'tell') {
-        console.log('you choose tell');
-        h22.innerHTML = 'you Choose Tell'
+    // console.log(tail);
+    if (tail === 'tail') {
+        console.log('you choose tail');
+        h22.innerHTML = 'you Choose Tail'
 
     } else {
         console.log('you choose head');
