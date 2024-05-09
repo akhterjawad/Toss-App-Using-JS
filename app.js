@@ -1,5 +1,5 @@
 let h2 = document.querySelector('.h2')
-let h22 = document.querySelector('.h22')
+let h2_second = document.querySelector('.h2_second')
 
 function calculated(tail) {
     if (Math.floor(Math.random() * 2)) {
@@ -15,10 +15,10 @@ function calculated(tail) {
     // console.log(tail);
     if (tail === 'tail') {
         console.log('you choose tail');
-        h22.innerHTML = 'you Choose Tail'
+        h2_second.innerHTML = 'you Choose Tail'
 
     } else {
         console.log('you choose head');
-        h22.innerHTML = 'you choose Head'
+        h2_second.innerHTML = 'you choose Head'
     }
 }
