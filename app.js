@@ -12,6 +12,7 @@ function calculated(tail) {
         // return 'lose'+ tail 
 
     }
+    
     // console.log(tail);
     if (tail === 'tail') {
         console.log('you choose tail');
